@@ -7,6 +7,26 @@ output_file = "data/processed/hotspot_history.csv"
 # Load FIRMS data
 df = pd.read_csv(input_file)
 
+# If the CSV was saved with the entire row treated as one field,
+# fix the formatting automatically.
+if len(df.columns) == 1 and "," in df.columns[0]:
+    with open(input_file, "r", encoding="utf-8-sig") as f:
+        lines = f.readlines()
+
+    fixed_lines = []
+
+    for line in lines:
+        line = line.strip()
+
+        # Remove an extra quote around the whole row
+        if line.startswith('"') and line.endswith('"'):
+            line = line[1:-1]
+
+        fixed_lines.append(line)
+
+    from io import StringIO
+    df = pd.read_csv(StringIO("\n".join(fixed_lines)))
+
 # Check column names
 print("Columns found:")
 print(df.columns.tolist())
@@ -61,7 +81,7 @@ top_hotspots = hotspots.sort_values(
     ascending=False
 )
 
-for _, row in top_hotspots.iterrows():
+for _, row in top_hotspots.head(10).iterrows():
     print(
         f"{row['hotspot_id']} — "
         f"{row['active_days']} active days"
