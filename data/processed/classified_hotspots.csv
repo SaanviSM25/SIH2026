@@ -1,0 +1,5 @@
+hotspot_id,latitude,longitude,active_days,distance_to_industry_km,classification,reason
+H001,22.31,72.91,6,0.15,Persistent Industrial Source,Detected on 6 days and located 0.15 km from the nearest industrial location.
+H002,22.5,73.1,1,0.15,Possible Industrial Fire,Detected on 1 days and located 0.15 km from the nearest industrial location.
+H003,22.7,73.3,8,5.63,Unexplained Persistent Source,Detected on 8 days and located 5.63 km from the nearest industrial location.
+H004,22.8,73.5,1,25.63,Short-lived Thermal Event,Detected on 1 days and located 25.63 km from the nearest industrial location.
