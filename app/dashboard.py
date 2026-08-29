@@ -170,6 +170,7 @@ with right_col:
     selected_id = st.selectbox("Select Hotspot:", df["hotspot_id"].unique())
 
     selected_row = df[df["hotspot_id"] == selected_id].iloc[0]
+    
 
     st.markdown(f"**Classification:** {selected_row['classification']}")
     st.markdown(f"**Active Days:** {selected_row['active_days']}")
@@ -178,8 +179,9 @@ with right_col:
     )
 
     dist_val = selected_row.get(
-        "distance_to_industry", selected_row.get("distance", "N/A")
-    )
+    "distance_to_industry_km",
+    selected_row.get("distance_to_industry", selected_row.get("distance", "N/A"))
+)
     if isinstance(dist_val, (int, float)):
         st.markdown(f"**Distance to Industry:** {dist_val:.2f} km")
     else:
