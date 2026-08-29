@@ -1,0 +1,18 @@
+hotspot_id,latitude,longitude,active_days,distance_to_industry_km,classification,reason
+H001,21.12,81.33,5,3.65,Unexplained Persistent Source,Detected on 5 day(s) and located 3.65 km from the nearest industrial location.
+H002,21.14,81.28,2,6.01,Short-lived Thermal Event,Detected on 2 day(s) and located 6.01 km from the nearest industrial location.
+H003,21.15,81.26,3,7.94,Unexplained Persistent Source,Detected on 3 day(s) and located 7.94 km from the nearest industrial location.
+H004,21.15,81.28,1,5.86,Short-lived Thermal Event,Detected on 1 day(s) and located 5.86 km from the nearest industrial location.
+H005,21.16,81.23,1,11.08,Short-lived Thermal Event,Detected on 1 day(s) and located 11.08 km from the nearest industrial location.
+H006,21.16,81.24,1,10.04,Short-lived Thermal Event,Detected on 1 day(s) and located 10.04 km from the nearest industrial location.
+H007,21.16,81.25,1,9.01,Short-lived Thermal Event,Detected on 1 day(s) and located 9.01 km from the nearest industrial location.
+H008,21.17,81.27,1,7.16,Short-lived Thermal Event,Detected on 1 day(s) and located 7.16 km from the nearest industrial location.
+H009,21.19,81.2,4,14.76,Unexplained Persistent Source,Detected on 4 day(s) and located 14.76 km from the nearest industrial location.
+H010,21.19,81.21,2,13.77,Short-lived Thermal Event,Detected on 2 day(s) and located 13.77 km from the nearest industrial location.
+H011,21.2,81.21,1,14.14,Short-lived Thermal Event,Detected on 1 day(s) and located 14.14 km from the nearest industrial location.
+H012,21.2,81.23,1,12.24,Short-lived Thermal Event,Detected on 1 day(s) and located 12.24 km from the nearest industrial location.
+H013,21.21,81.27,1,9.38,Short-lived Thermal Event,Detected on 1 day(s) and located 9.38 km from the nearest industrial location.
+H014,21.22,81.21,1,15.1,Short-lived Thermal Event,Detected on 1 day(s) and located 15.10 km from the nearest industrial location.
+H015,21.23,81.19,1,17.45,Short-lived Thermal Event,Detected on 1 day(s) and located 17.45 km from the nearest industrial location.
+H016,21.23,81.21,1,15.68,Short-lived Thermal Event,Detected on 1 day(s) and located 15.68 km from the nearest industrial location.
+H017,21.23,81.26,1,11.69,Short-lived Thermal Event,Detected on 1 day(s) and located 11.69 km from the nearest industrial location.

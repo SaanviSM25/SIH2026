@@ -35,8 +35,8 @@ print(df.columns.tolist())
 df["acq_date"] = pd.to_datetime(df["acq_date"])
 
 # Create approximate grid coordinates
-df["grid_lat"] = df["latitude"].round(3)
-df["grid_lon"] = df["longitude"].round(3)
+df["grid_lat"] = df["latitude"].round(2)
+df["grid_lon"] = df["longitude"].round(2)
 
 # Group detections by approximate location
 grouped = df.groupby(["grid_lat", "grid_lon"])
