@@ -1,0 +1,294 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-28T16:29:04Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/65310813",
+        "industrial": "steelmaking",
+        "landuse": "industrial",
+        "name": "Bhilai Steel Plant",
+        "operator": "Steel Authority of India Limited",
+        "wikidata": "Q4901728",
+        "wikipedia": "en:Bhilai Steel Plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3909595,
+          21.1843795
+        ]
+      },
+      "id": "way/65310813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129773726",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.4060906,
+          21.2350382
+        ]
+      },
+      "id": "way/129773726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129773727",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.4135769,
+          21.2293135
+        ]
+      },
+      "id": "way/129773727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129773729",
+        "industrial": "factory",
+        "landuse": "industrial",
+        "name": "ACC Jamul",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3836386,
+          21.2378747
+        ]
+      },
+      "id": "way/129773729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129773736",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.387143,
+          21.2270842
+        ]
+      },
+      "id": "way/129773736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129773738",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3948367,
+          21.233717
+        ]
+      },
+      "id": "way/129773738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129775660",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3489566,
+          21.1551046
+        ]
+      },
+      "id": "way/129775660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202180496",
+        "landuse": "industrial",
+        "name": "Bhilai 500 MW Expansion Power Project",
+        "operator": "NSPCL",
+        "plant:method": "combustion",
+        "plant:output:electricity": "500 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "wikidata": "Q17747188",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.4243243,
+          21.1882014
+        ]
+      },
+      "id": "way/202180496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202184617",
+        "barrier": "wall",
+        "landuse": "industrial",
+        "name": "Raipur Substation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.4883606,
+          21.2438204
+        ]
+      },
+      "id": "way/202184617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/310672417",
+        "landuse": "industrial",
+        "name": "Bhilai Jaypee Cement Ltd.",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3620341,
+          21.184364
+        ]
+      },
+      "id": "way/310672417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/454897721",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3987777,
+          21.225638
+        ]
+      },
+      "id": "way/454897721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/458270072",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5103361,
+          21.2417332
+        ]
+      },
+      "id": "way/458270072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/459375735",
+        "landuse": "industrial",
+        "name": "Kedia Castle Dellon Distilleries Ltd",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.5319855,
+          21.2783753
+        ]
+      },
+      "id": "way/459375735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1224580452",
+        "landuse": "industrial",
+        "name:en": "Bhilai Steel 74 MW Captive Power Plant",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "wikipedia": "en:NSPCL Bhilai Power Plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3946295,
+          21.1781651
+        ]
+      },
+      "id": "way/1224580452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1265618886",
+        "description": "507880",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.4658942,
+          21.2338244
+        ]
+      },
+      "id": "way/1265618886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1340004426",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.3363608,
+          21.152465
+        ]
+      },
+      "id": "way/1340004426"
+    }
+  ]
+}
