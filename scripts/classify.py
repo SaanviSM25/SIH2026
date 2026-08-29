@@ -6,8 +6,8 @@ from geopy.distance import geodesic
 # 1. Read the input CSV files
 # -----------------------------
 
-hotspots = pd.read_csv("data/raw/hotspot_history.csv")
-industries = pd.read_csv("data/raw/industrial_locations.csv")
+hotspots = pd.read_csv("data/processed/hotspot_history.csv")
+industries = pd.read_csv("data/processed/industrial_locations.csv")
 
 
 # -----------------------------
@@ -74,7 +74,7 @@ for _, hotspot in hotspots.iterrows():
     )
 
     reason = (
-        f"Detected on {hotspot['active_days']} days "
+        f"Detected on {hotspot['active_days']} day(s) "
         f"and located {distance:.2f} km "
         f"from the nearest industrial location."
     )
