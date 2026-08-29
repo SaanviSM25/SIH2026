@@ -163,5 +163,6 @@ Testing results and known issues are documented in:
 ```text
 docs/testing.md
 ```
+The prototype uses NASA FIRMS sample observations supplemented with synthetic repeated detections to demonstrate the temporal persistence workflow. Production implementation will use larger historical FIRMS datasets.
 
 The dashboard has been tested successfully for loading the final hotspot data, displaying the map and markers, selecting hotspots, and displaying hotspot details.
